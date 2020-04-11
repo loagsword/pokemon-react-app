@@ -2,7 +2,6 @@
   "name": "@loagsword/pokemon-react-app",
 	"version": "1.0",
 	"license": "MIT",
-	"private": true,
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/loagsword/pokemon-react-app.git"
