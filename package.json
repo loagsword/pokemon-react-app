@@ -1,10 +1,31 @@
 {
+  "name": "@loagsword/pokemon-react-app",
+	"version": "1.0",
+	"license": "MIT",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/loagsword/pokemon-react-app.git"
+	},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "now-build": "react-scripts build && mv build dist"
+  },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
     "apollo-boost": "^0.4.7",
     "graphql": "^15.0.0",
     "graphql-tag": "^2.10.3",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  },"browserslist": [
+		">0.2%",
+		"not dead",
+		"not ie <= 11",
+		"not op_mini all"
+	]
 }
